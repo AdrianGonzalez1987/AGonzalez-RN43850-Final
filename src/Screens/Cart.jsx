@@ -1,4 +1,4 @@
-import { FlatList, Pressable, StyleSheet, Text, View} from 'react-native'
+import { Platform, FlatList, Pressable, StyleSheet, Text, View} from 'react-native'
 import React from 'react'
 
 import CartItem from '../Components/CartItem';
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
         flex: 1,
         
         backgroundColor:colors.beige,
-        //paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
+        paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
        
     },
     totalContainer: {
