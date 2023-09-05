@@ -1,4 +1,5 @@
 import { FlatList, StyleSheet, View} from 'react-native'
+import {Platform } from 'react-native-web'
 import React, { useEffect, useState } from 'react'
 import productsRaw from '../Data/products.json'
 import ProductItem from '../Components/ProductItem'

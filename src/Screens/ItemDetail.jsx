@@ -1,4 +1,5 @@
 import { Button, Image, StyleSheet, Text, View, useWindowDimensions} from "react-native";
+import {Platform } from 'react-native-web'
 import React, { useEffect, useState } from "react";
 import allProducts from "../Data/products.json";
 import { colors } from "../Global/Colors";
